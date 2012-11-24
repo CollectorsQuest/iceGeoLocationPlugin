@@ -20,6 +20,12 @@ classes:
 
     propel_behaviors:
       ice_model:  ~
+    behaviors:
+      PropelActAsSluggableBehavior:
+        columns: { from: ice_geo_country.NAME, to: ice_geo_country.SLUG }
+        separator: "-"
+        permament: false
+        lowercase: false
 
   GeoRegion:
     tableName: ice_geo_region

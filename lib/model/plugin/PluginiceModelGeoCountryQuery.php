@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Skeleton subclass for representing a row from the 'geo_country' table.
+ * Skeleton subclass for performing query and update operations on the 'geo_country' table.
  *
  *
  *
@@ -11,7 +11,7 @@
  *
  * @package    propel.generator.plugins.iceGeoLocationPlugin.lib.model
  */
-class iceModelGeoCountry extends PluginiceModelGeoCountry
+class PluginiceModelGeoCountryQuery extends BaseiceModelGeoCountryQuery
 {
 
 }

@@ -87,7 +87,7 @@ class ajaxAction extends IceAjaxAction
       {
         $cities[] = array(
           'id' => (int) $record->getId(), 'name' => $record->getName(), 'type' => $record->getType(),
-          'geo_region_id' => $record->getGeoRegionId(), 'geo_region_name' => (string) $record->getGeoRegion(),
+          'geo_region_id' => $record->getGeoRegionId(), 'geo_region_name' => (string) $record->geticeModelGeoRegion(),
           'culture' => $culture
         );
       }

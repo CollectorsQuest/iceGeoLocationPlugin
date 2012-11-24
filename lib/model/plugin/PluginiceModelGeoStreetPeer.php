@@ -5,7 +5,7 @@
  *
  * @package    propel.generator.plugins.iceGeoLocationPlugin.lib.model
  */
-class iceModelGeoStreetQuery extends PluginiceModelGeoStreetQuery
+class PluginiceModelGeoStreetPeer extends BaseiceModelGeoStreetPeer
 {
 
 }

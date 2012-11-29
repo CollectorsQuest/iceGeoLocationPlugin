@@ -39,7 +39,7 @@ class PluginiceModelGeoRegionQuery extends BaseiceModelGeoRegionQuery
     65 => 27
   );
 
-  public function findOneByMaxmindId($id, GeoRegionQuery $q = null)
+  public function findOneByMaxmindId($id, iceModelGeoRegionQuery $q = null)
   {
     if ($q === null)
     {
@@ -54,7 +54,7 @@ class PluginiceModelGeoRegionQuery extends BaseiceModelGeoRegionQuery
     return null;
   }
 
-  public function findOneBySlug($slug, GeoRegionQuery $q = null)
+  public function findOneBySlug($slug, iceModelGeoRegionQuery $q = null)
   {
     if ($q === null)
     {

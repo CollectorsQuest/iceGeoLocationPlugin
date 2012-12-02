@@ -1,4 +1,4 @@
-GeoCountry:
+iceModelGeoCountry:
   GeoCountry_1:
     name: Afghanistan
     iso3166: AF

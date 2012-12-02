@@ -1,4 +1,4 @@
-GeoArea:
+iceModelGeoArea:
   GeoArea_1:
     geo_region_id: GeoRegion_1
     geo_city_id: GeoCity_1

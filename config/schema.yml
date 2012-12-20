@@ -22,7 +22,7 @@ classes:
       ice_model:  ~
     behaviors:
       PropelActAsSluggableBehavior:
-        columns: { from: ice_geo_country.NAME, to: ice_geo_country.SLUG }
+        columns: { from: ice_geo_country.name, to: ice_geo_country.slug }
         separator: "-"
         permament: false
         lowercase: false
